@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#maindiv{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 30vh;
+    margin-left: 40vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    width: fit-content;
+    height: 100%;
+}
+#ticket{
+    border: 2px solid black;
+    border-radius: 2%;
+    color: black;
+    height: 10vh;
+    width: 20vw;
+    font-size: 40px;
+    background-color: rgb(109, 248, 109);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#maindiv button{
+    padding: 10px 15px;
+    background-color: greenyellow;
+    height: 6vh;
+    font-weight: 700;
+    font-size: large;
+    width: 12vw;
+}
